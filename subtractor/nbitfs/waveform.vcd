@@ -1,0 +1,195 @@
+$date
+     Apr 14, 2023       09:56:35
+$end
+
+$version
+              SystemC 2.3.0_pub_rev_20111121-OSCI --- Mar 13 2023 10:35:45
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clk       $end
+$var wire    1  aab  reset       $end
+$var wire    1  aaaac  b_in       $end
+$var wire    1  aaaad  b_out       $end
+$var wire   16  aaaae  a_combined [15:0]  $end
+$var wire   16  aaaaf  b_combined [15:0]  $end
+$var wire   16  aaaag  diff_combined [15:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 1e-11 sec = 10 timescale units.
+$end
+
+$dumpvars
+1aaa
+1aab
+0aaaac
+0aaaad
+b1101011111001 aaaae
+b1010111110100111 aaaaf
+b0 aaaag
+$end
+
+#5000
+0aaa
+
+#10000
+1aaa
+
+#10010
+0aab
+b1010011001110001 aaaae
+b1010111011111101 aaaaf
+b1 aaaag
+
+#10020
+b1010100111001110 aaaae
+b101111110000110 aaaaf
+b100111000000000 aaaag
+
+#15000
+0aaa
+
+#20000
+1aaa
+
+#20020
+b1010111010001101 aaaae
+b1111100000000 aaaaf
+b0 aaaag
+
+#20030
+b1111100100000111 aaaae
+b101110110110001 aaaaf
+b1001101101010110 aaaag
+
+#25000
+0aaa
+
+#30000
+1aaa
+
+#30030
+1aaaad
+b1100011010111010 aaaae
+b101100100110 aaaaf
+b0 aaaag
+
+#30040
+b100111011100 aaaae
+b10100111000001 aaaaf
+b1110000000011011 aaaag
+
+#35000
+0aaa
+
+#40000
+1aaa
+
+#40040
+1aaaac
+0aaaad
+b11010101010 aaaae
+b11001110101 aaaaf
+b0 aaaag
+
+#40050
+b1010000100001110 aaaae
+b100110101101011 aaaaf
+b101001110100010 aaaag
+
+#45000
+0aaa
+
+#50000
+1aaa
+
+#50050
+0aaaac
+1aaaad
+b1111010110110010 aaaae
+b1010011000100101 aaaaf
+b0 aaaag
+
+#50060
+b1110000000000 aaaae
+b101100011100110 aaaaf
+b1100001100011010 aaaag
+
+#55000
+0aaa
+
+#60000
+1aaa
+
+#60060
+0aaaad
+b11000001111 aaaae
+b101001100111010 aaaaf
+b0 aaaag
+
+#60070
+b1100101011011011 aaaae
+b1001110100010 aaaaf
+b1011011100111001 aaaag
+
+#65000
+0aaa
+
+#70000
+1aaa
+
+#70070
+1aaaad
+b11110111110111 aaaae
+b1101001010001110 aaaaf
+b1 aaaag
+
+#70080
+b10111111101100 aaaae
+b110100111001110 aaaaf
+b1100011000011110 aaaag
+
+#75000
+0aaa
+
+#80000
+1aaa
+
+#80080
+1aaaac
+b100111010100101 aaaae
+b1010011001101110 aaaaf
+b1 aaaag
+
+#80090
+b100010100000000 aaaae
+b1001100001111011 aaaaf
+b1010110010000100 aaaag
+
+#85000
+0aaa
+
+#90000
+1aaa
+
+#90090
+0aaaac
+0aaaad
+b1101000100010110 aaaae
+b1010011001100111 aaaaf
+b0 aaaag
+
+#90100
+b111001011010011 aaaae
+b1011110111111 aaaaf
+b101101100010100 aaaag
+
+#95000
+0aaa
+
